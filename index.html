@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+    <meta charset="UFF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial.scale=1.0">
+    <title>Gurpreet's Portfolio</title>
+    <!----link to Css-->
+    <link rel="stylesheet" href="stylep.css">
+    <!---Box Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--Scroll top-->
+    <a href="#" class="scroll-top">
+        <i class='bx bx-up-arrow-alt'></i>
+    </a>
+    <!--header-->
+    <header>
+        <!--NAv-->
+        <div class="nav container">
+            <!---logo-->
+            <a href="#" class="logo">Gurpreet Singh</a>
+            <!--navbar-->
+            <ul class="navbar">
+                <li><a href="#home" class="nav-links">Home</a></li>
+                <li><a href="#about" class="nav-links">About</a></li>
+                <li><a href="#services" class="nav-links">Skills</a></li>
+                <li><a href="#contact" class="nav-links">Contact</a></li>
+            </ul>
+        </div>
+        <div class="menu-icon">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+    <!--home-->
+    <section class="home container" id="home">
+        <div class="home-content">
+            <div class="home-img">
+                <img src="imagesp/WhatsApp Image 2022-07-16 at 2.08.51 PM.jpeg" alt="">
+            </div>
+            <div class="home-text">
+                <h3>Hello</h3>
+                <h2>I'm <span class="color">Gurpreet</span></h2>
+                <p>
+                    Just 20 and I'm <span class="color">BE</span> student in <span class="color">Coumpter Science</span> at <span class="color">Chitkara Univerity</span><br> Here's a bit more <span class="color">about me.</span>
+                </p>
+                <!--social-->
+                <div class="social">
+                    <a href="https://www.facebook.com/gurpreet.gumber.7"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://twitter.com/moregoppi"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.instagram.com/moregoppi/"><i class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="about container" id="about">
+        <!--HEading-->
+        <h2 class="heading">About</h2>
+        <div class="about-content">
+            <div class="about-data">
+                <span>About me</span>
+                <h2>Junior Web <br>Developer & Student</h2>
+                <a href="cv.docx" class="btn" download="">
+                    Download Info
+                    <i class="bx bx-download"></i>
+                </a>
+            </div>
+            <div class="about-text">
+                <p>Hello i'm Gurpreet Singh. Junior Developer, Student in Chitkara University</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores facilis a Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis cum quam delectus tempora ape</p>
+                <p>Connect with Contact button</p>
+            </div>
+        </div>
+    </section>
+    <!--services-->
+    <section class="service container" id="services">
+        <!--heading-->
+        <h2 class="heading">Skills</h2>
+        <!--Services Content-->
+    <div class="service-content">
+        <div class="services-box">
+            <i class='bx bxl-java'></i>
+            <h2>Intermediate in Java</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eaque quae eveniet repellendus quibusdam enim.</p>
+        </div>
+        <div class="services-box">
+            <i class="bx bx-code-alt"></i>
+            <h2>Intermediate in Web Development</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eaque quae eveniet repellendus quibusdam enim.</p>
+        </div>
+        <div class="services-box">
+            <i class='bx bxl-python'></i>
+            <h2>Beginner in Python</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eaque quae eveniet repellendus quibusdam enim.</p>
+        </div>
+    </div>
+    </section>
+    <!--Contact form-->
+    <section class="contact container" id="contact">
+         <!--heading-->
+         <h2 class="heading">Contact</h2>
+         <!--Contact Form-->
+         <form action="" class="contact-form" id="contact-form">
+            <input type="text" placeholder="Your Name" class="name" required>
+            <input type="email" name="" id="" placeholder="Email address...." class="email" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write message here..." class="message" required></textarea>
+            <input type="submit" value="Send" class="send-btn">
+         </form>
+    </section>
+    <section class="footer container" id="footer">
+        <div class="social">
+            <a href="https://www.facebook.com/gurpreet.gumber.7"><i class='bx bxl-facebook'></i></a>
+            <a href="https://twitter.com/moregoppi"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.instagram.com/moregoppi/"><i class='bx bxl-instagram'></i></a>
+        </div>
+        <!--Footer links-->
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Term Of Uses</a>
+            <a href="#">Disclaimer</a>
+        </div>
+        <!--copyright-->
+        <p>&#169; moregoppi</p>
+    </section>
+
+
+
+
+
+    <!--Email js link-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!--Sweet alert js link-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="'text/javascript">
+        (function(){
+            emailjs.init('ZmQuP-9-mQ6QDaiHB');
+        
+        })();
+    </script>
+    <!---link to javascript-->
+    <script src="main.js"></script>
+</body>
+</html>
